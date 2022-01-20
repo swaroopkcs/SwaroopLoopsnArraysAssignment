@@ -19,7 +19,7 @@ public class Question3 {
 		switch(choice) {
 		case 1: {
 			System.out.println("These are the models available for Samsung");
-			for (int i=0;i<4;i++) {
+			for (int i=0;i<samsungModels.length;i++) {
 				System.out.println(samsungModels[i]);
 			}
 			System.out.println("Please enter the prduct that want to see");
@@ -43,7 +43,7 @@ public class Question3 {
 		} 
 		case 2: {
 			System.out.println("These are the models available for Google");
-			for (int i=0;i<4;i++) {
+			for (int i=0;i<googleModels.length;i++) {
 				System.out.println(googleModels[i]);	
 			}
 			System.out.println("Please enter the prduct that want to see");
@@ -66,7 +66,7 @@ public class Question3 {
 		} 
 		case 3: {
 			System.out.println("These are the models available for Apple");
-			for (int i=0;i<4;i++) {
+			for (int i=0;i<appleModels.length;i++) {
 				System.out.println(appleModels[i]);
 			}
 			System.out.println("Please enter the prduct that want to see");
